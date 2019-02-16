@@ -5,5 +5,7 @@ public class CannotBuildNodeException extends Exception {
 	public CannotBuildNodeException(String message) {
 		super(message);
 	}
+	public CannotBuildNodeException() {
+	}
 
 }
